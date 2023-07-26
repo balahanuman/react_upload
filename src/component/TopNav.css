@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav{
+    background: darkblue;
+    height: 80px;
+}
+.logo{
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0 80px;
+}
+nav.menu{
+float: right;
+margin-right: 80px;
+}
+nav .list_item{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 10px;
+     line-height: 80px;
+}
+nav .list_item:hover{
+    color: rosybrown;
+    
+}
+.bars{
+    float: right;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 8px;
+    line-height: 80px;
+    cursor: pointer;
+    display: block;
+}
